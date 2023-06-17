@@ -27,7 +27,7 @@ const query = groq`*[_type == "post" && references(categories, *[_type == "categ
 
 
 
-const  page = () => {
+const  Page = () => {
   const [post, setPost] = useState([])
   useEffect(() => {
     const fetchposts = async()=>{
@@ -109,4 +109,4 @@ const  page = () => {
 </>  )
 }
 
-export default page
+export default Page
