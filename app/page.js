@@ -7,7 +7,8 @@ import {motion} from 'framer-motion'
 import {PortableText} from '@portabletext/react'
 import Image from 'next/image'
 import urlFor from './lib/UrlFor'
-
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6078904081083488"
+     crossorigin="anonymous"></script>
 const query = groq`*[_type == "post"] {
   ...,
   description,
